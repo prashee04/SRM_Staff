@@ -1,0 +1,38 @@
+
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore local configuration files
+instance/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore any local development configuration files
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore generated files and build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+
+# Ignore package dependencies
+# Make sure to include this if you're using a virtual environment
+# If you're using pipenv, this should be 'Pipfile.lock'
+# If you're using poetry, this should be 'pyproject.toml'
+requirements.txt
