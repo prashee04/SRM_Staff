@@ -8,13 +8,14 @@
 
 :root {
   --primaryColor: hsl(213, 57%, 37%);
-  --hoverColor: hsl(205, 76%, 77%);
+  --hoverColor: hsl(205, 74%, 82%);
   --paleGreen: hsl(203, 76%, 88%);
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(0, 0%, 18%);
   --greyText: hsl(0, 0%, 75%);
   --bgColor: hsl(113, 11%, 85%);
   --inputColor: hsl(330, 12%, 97%);
+  --textColor: hsl(240, 1%, 48%);
   --biggestFontSize: 2.5rem;
   --h1FontSize: 1.5rem;
   --h2FontSize: 1.25rem;
@@ -140,7 +141,7 @@ video {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   top: 0;
   bottom: 0;
   right: 0;
@@ -176,7 +177,7 @@ video {
   right: 10px;
   justify-content: space-between;
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   border-radius: 10px;
 }
 .loginPage .container .videoDiv .footerDiv .text,
@@ -422,4 +423,4 @@ video {
 }
 ::-webkit-scrollbar {
   display: none;
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */

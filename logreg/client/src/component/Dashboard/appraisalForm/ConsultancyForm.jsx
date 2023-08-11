@@ -59,7 +59,7 @@ function ConsultancyForm({ onNextStep }) {
           />
         </div>
         <button className="submit-button" type="submit">
-          Submit
+          Next
         </button>
       </form>
       {result && (

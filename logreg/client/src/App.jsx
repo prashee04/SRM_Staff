@@ -1,9 +1,8 @@
 import "./App.css";
 import Dashboard from "./component/Dashboard/app";
-import Appraisal from "./component/Dashboard/pages/Appraisal";
 import Login from "./component/Login/Login";
 import Register from "./component/Register/Register";
-
+import Appraisal from "./component/Dashboard/pages/Appraisal";
 // import react router dom
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
