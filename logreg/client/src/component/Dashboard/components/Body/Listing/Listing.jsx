@@ -1,7 +1,12 @@
 import React from "react";
+import AppraisalForm from "../../../appraisalForm/AppraisalForm";
 
 const Listing = () => {
-  return <div>Listing</div>;
+  return (
+    <div>
+      <AppraisalForm />
+    </div>
+  );
 };
 
 export default Listing;

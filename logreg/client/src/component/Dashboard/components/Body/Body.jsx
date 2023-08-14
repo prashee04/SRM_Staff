@@ -9,10 +9,7 @@ const Body = () => {
     <div className="mainContent">
       <Top />
 
-      <div className="bottom flex">
-        <Listing />
-        <Activity />
-      </div>
+      <div className="bottom flex"></div>
     </div>
   );
 };

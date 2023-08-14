@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import api, { onlineCourseEndpoint } from "../api";
 import "./formstyle.css";
-
+import { AiOutlineSwapRight } from "react-icons/ai";
 function OnlineCourseForm({ onNextStep }) {
   const [employeeId, setEmployeeId] = useState("");
   const [course, setCourse] = useState(0);
@@ -58,8 +58,9 @@ function OnlineCourseForm({ onNextStep }) {
             onChange={(e) => setCumulative(parseInt(e.target.value))}
           />
         </div>
-        <button className="submit-button" type="submit">
-          Next
+        <button type="submit" className="btn dflex">
+          <span>Next</span>
+          <AiOutlineSwapRight className="icon" />
         </button>
       </form>
       {result && (

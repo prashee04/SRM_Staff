@@ -1,1 +1,74 @@
-/*# sourceMappingURL=top.css.map */
+:root {
+  --primaryColor: hsl(213, 57%, 37%);
+  --hoverColor: hsl(205, 74%, 82%);
+  --paleGreen: hsl(203, 76%, 88%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 75%);
+  --bgColor: hsl(213, 100%, 96%);
+  --inputColor: hsl(330, 12%, 97%);
+  --textColor: hsl(240, 1%, 48%);
+  /* font and typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --narmalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+.topSection .hearderSection {
+  justify-content: space-between;
+}
+.topSection .hearderSection .title h1 {
+  font-size: var(--h1FontSize);
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.topSection .hearderSection .title p {
+  font-size: var(--narmalFontSize);
+  color: var(--textColor);
+  font-weight: 500;
+}
+.topSection .hearderSection .searchBar {
+  padding: 1rem 2rem;
+  background-color: var(--whiteColor);
+  border-radius: 5px;
+  gap: 1rem;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+.topSection .hearderSection .searchBar input {
+  outline: none;
+  border: none;
+  background: none;
+}
+.topSection .hearderSection .searchBar .dicon {
+  color: var(--textColor);
+}
+.topSection .hearderSection .searchBar .dicon:hover {
+  color: var(--primaryColor);
+}
+.topSection .hearderSection .adminDiv {
+  gap: 1rem;
+}
+.topSection .hearderSection .adminDiv .dicon {
+  font-size: var(--biggestFontSize);
+  background: var(--whiteColor);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+.topSection .hearderSection .adminDiv .adminImage {
+  border: 3px solid var(--whiteColor);
+  border-radius: 10px;
+  width: 2.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px var(--inputColor);
+  background: var(--paleGreen);
+}
+.topSection .hearderSection .adminDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}/*# sourceMappingURL=top.css.map */

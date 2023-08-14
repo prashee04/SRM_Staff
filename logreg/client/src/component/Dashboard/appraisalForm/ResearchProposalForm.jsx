@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import api, { researchProposalEndpoint } from "../api";
-import "./formstyle.css"; // Make sure to use the correct CSS file name
+import "./formstyle.css";
+import { AiOutlineSwapRight } from "react-icons/ai";
 
 function ResearchProposalForm({ onNextStep }) {
   const [employeeId, setEmployeeId] = useState("");
@@ -47,8 +48,9 @@ function ResearchProposalForm({ onNextStep }) {
             onChange={(e) => setProposal(parseInt(e.target.value))}
           />
         </div>
-        <button className="submit-button" type="submit">
-          Next
+        <button type="submit" className="btn dflex">
+          <span>Next</span>
+          <AiOutlineSwapRight className="icon" />
         </button>
       </form>
       {result && (

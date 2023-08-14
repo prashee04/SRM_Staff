@@ -1,3 +1,4 @@
+import { AiOutlineSwapRight } from "react-icons/ai";
 import React, { useState } from "react";
 import api, { contentDevelopmentEndpoint } from "../api";
 import "./formstyle.css"; // Make sure to use the correct CSS file name
@@ -54,8 +55,8 @@ function ContentDevelopmentForm({ onNextStep }) {
             }
           />
         </div>
-        <button className="submit-button" type="submit">
-          Submit
+        <button type="submit" className="btn dflex">
+          <span>Submit</span>
         </button>
       </form>
       {result && (

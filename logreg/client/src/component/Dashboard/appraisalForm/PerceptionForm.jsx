@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import api, { perceptionEndpoint } from "../api";
 import "./formstyle.css";
+import { AiOutlineSwapRight } from "react-icons/ai";
 
 function PerceptionForm({ onNextStep }) {
   const [employeeId, setEmployeeId] = useState("");
@@ -62,8 +63,9 @@ function PerceptionForm({ onNextStep }) {
             onChange={(e) => setCumulative(parseInt(e.target.value))}
           />
         </div>
-        <button className="submit-button" type="submit">
-          Next
+        <button type="submit" className="btn dflex">
+          <span>Next</span>
+          <AiOutlineSwapRight className="icon" />
         </button>
       </form>
       {result && (
